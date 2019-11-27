@@ -1,22 +1,25 @@
-.App {
+.time-hour{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.app-text{
+  justify-content: space-around;
+  display:flex;
+  font-size: 20px;
+}
+.app-time{
+  font-size: 100px;
+  display:flex;
+  justify-content: space-around;
+}
+.time-app{
+  display: inline-block;
+  
+}
+#compteur{
+  font-size:30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color:red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #09d3ac;
-}
